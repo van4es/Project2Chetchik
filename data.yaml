@@ -1,0 +1,13 @@
+train: C:/obychenie2/train/images
+val:   C:/obychenie2/valid/images
+test: C:/obychenie2/test/images
+
+nc: 8
+names: ['Display', 'Meter_kvant', 'meter_energomer', 'meter_matrica', 'meter_number', 'seal_elso', 'seal_imp', 'seal_mercury']
+
+roboflow:
+  workspace: 123-vzei4
+  project: pribor
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/123-vzei4/pribor/dataset/7
